@@ -4,7 +4,7 @@ execute if score $gamerule demi_previousvalue matches 1 run gamerule sendCommand
 execute at @e[tag=demi_selected] if score @s demi_id = @e[tag=demi_selected,sort=nearest,limit=1] demi_id run tag @e[tag=demi_selected,sort=nearest,limit=1] add modify
 #Value modification goes here
 
-data modify entity @e[tag=modify,limit=1] glow_color_override set value 1
+data modify entity @e[tag=modify,limit=1] glow_color_override set value 0
 
 #
 
