@@ -1,0 +1,1 @@
+give @s warped_fungus_on_a_stick{display:{Name:'{"text":"Display entity placer","color":"aqua","italic":false}'},HideFlags:4,Unbreakable:1b,DEPlacer:1b,Mode:"block"} 1

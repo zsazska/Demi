@@ -1,0 +1,1 @@
+give @s warped_fungus_on_a_stick{display:{Name:'{"text":"Display entity editor","color":"light_purple","italic":false}'},HideFlags:4,Unbreakable:1b,DEModifier:1b,Mode:"select"} 1
