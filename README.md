@@ -3,6 +3,7 @@
 ## Items
 
 -Run the **/function demi:getitems** command to get the items in this datapack
+
 -While holding these items, sneak twice quickly to change between their modes. The current mode will be displayed above your hotbar
 
 ### Display entity placer
@@ -13,7 +14,7 @@
 
 ### Display entity editor
 
--Selector mode: In this mode, all display entites will emit light red particles. Right click on the particles of a display entity to select it. All selected entities will emit light green particles, and glow if they are block or item displays. To deselect an entity, right click anywhere else.
+-Selector mode: In this mode, all display entites will emit light red particles. Right click on the particles of a display entity to select it. All selected entities will emit light green particles, and glow if they are block or item displays. To deselect an entity, right click anywhere else. Selected entites have the **demi_selected** tag.
 
 -Scale/translation/left rotation/right rotation mode: When switching to one of these modes, three block displays will appear, representing each axis (red is the x axis, green is the y axis, and blue is the z axis). Click on an axis's particles to select that axis. Move on the selected axis to change the value of the selected transformation (moving in the positive direction will increase and moving in the negative direction will decrease the value). Like in select mode, clicking somewhere else other than the axis deselects it and keeps the changes you've made. Note that selecting an axis resets the transformation to 0 on that axis.
 
