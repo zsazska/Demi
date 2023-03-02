@@ -1,7 +1,8 @@
 {
 
     "values":[
-        "demi:main"
+        "demi:main",
+	"deg:main"
         ]
 
 }
