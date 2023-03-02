@@ -1,0 +1,1 @@
+give @s warped_fungus_on_a_stick{display:{Name:'{"text":"Group saver","italic":false}'},HideFlags:4,Unbreakable:1b,GroupSaver:1b} 1

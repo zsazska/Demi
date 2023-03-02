@@ -1,0 +1,1 @@
+tellraw @s [{"text":"Saved groups: ","color":"yellow"},{"nbt":"SavedGroups[].id","storage":"deg","interpret":true}]

@@ -1,0 +1,1 @@
+give @s warped_fungus_on_a_stick{display:{Name:'{"text":"Group loader","italic":false}'},HideFlags:4,Unbreakable:1b,Loader:1b,LoadData:false} 1

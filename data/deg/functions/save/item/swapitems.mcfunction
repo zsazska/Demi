@@ -1,0 +1,2 @@
+item replace entity @s weapon.offhand from entity @s weapon.mainhand
+item replace entity @s weapon.mainhand with warped_fungus_on_a_stick{display:{Name:'{"text":"Group saver","italic":false}'},HideFlags:4,Unbreakable:1b,GroupSaver:1b} 1

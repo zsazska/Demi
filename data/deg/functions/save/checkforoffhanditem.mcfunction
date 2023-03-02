@@ -1,0 +1,2 @@
+execute if data entity @s Inventory[{Slot:-106b}].tag.display.Name run function deg:save/saveinit
+execute unless data entity @s Inventory[{Slot:-106b}].tag.display.Name run tellraw @s {"text": "Hold a renamed item in your offhand to save","color": "red"}

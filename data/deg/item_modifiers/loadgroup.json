@@ -1,0 +1,36 @@
+[
+    {
+      "function": "minecraft:set_lore",
+      "entity": "this",
+      "lore": [
+        [
+          {
+            "text": "Loaded group: ",
+            "color": "white",
+            "italic": false
+          },
+          {
+            "nbt": "ItemLoadTemp.id",
+            "storage": "minecraft:deg",
+            "interpret": true
+          }
+        ]
+      ],
+      "replace": true
+    },
+    {
+      "function": "minecraft:copy_nbt",
+      "source": {
+        "type": "minecraft:storage",
+        "source": "minecraft:deg"
+      },
+      "ops": [
+        {
+          "source": "ItemLoadTemp",
+          "target": "LoadData",
+          "op": "replace"
+        }
+      ]
+    }
+  ]
+  
