@@ -4,7 +4,7 @@
 
 -Run the **/function demi:getitems** command to get the items in this datapack
 
--While holding these items, sneak twice quickly to change between their modes. The current mode will be displayed above your hotbar
+-While holding these items, sneak twice quickly to change between the placer and the editor's modes. The current mode/instructions will be displayed above your hotbar
 
 ### Display entity placer
 
@@ -22,7 +22,15 @@
 
 -Settings mode: in this mode, right clicking will bring up a menu in your chat. Using this menu you can edit various properties of the entity, such as its rotation, brightness, shadow, or you can duplicate it, change the displayed block/item/text, or delete it.
 
-## Commands
+## Group Saver
+
+Right click on a block or put the item in your offhand ("f" by default) to set the corners of the selection and the origin of the group (selected display entites will emit yellow particles). Then right click while holding a renamed item in your offhand to save the group. The group's id will be the name of the item in your offhand.
+
+## Group loader
+
+Shift-right click while holding a renamed item in your offhand to load a group (the loaded group's id is the name of the item in your offhand). Then right click on a block to load the group. Groups can be selected with the **"demi_group"** tag and grouped entities can be selected with **"demi_grouped"**. Groups can be moved around, rotated and resized. To move a group, simply teleport the **demi_group** entity to the desired location. To rotate a group, modify the **demi_group** entity's Rotation data (with /tp or /data modify or merge). Then, run the **/function demi:updaterotation** command *AS* the **demi_group** entity to update its rotation visually. To resize the group, set the **resize_\<axis>** scores of the **demi_group** entity. These values are the percentage of the group's size, so setting resize_x to 200 will double the group's size on the x axis for example.
+
+## Other Commands
 
 -There are various commands you can use to set each transformation to a precise value.
 
@@ -54,5 +62,7 @@ scoreboard players set @s left_rotation_z 45
 scoreboard players set @s interpolation_duration 100
 function demi:transformations/interpolation
 ```
+  
+ - You can use the **/function demi:listgroups** command to list all saved groups
   
 -The pack also includes the **display_entites** entity tag that contains all 3 display entites
