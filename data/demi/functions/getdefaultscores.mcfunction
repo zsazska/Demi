@@ -11,6 +11,7 @@ scoreboard players set @s translation_x 0
 scoreboard players set @s translation_y 0
 scoreboard players set @s translation_z 0
 scoreboard players set @s interpolation_duration 60
+scoreboard players set @s interpolation_delay 0
 
 execute if entity @s[type=text_display] run scoreboard players set @s background_alpha 64
 
