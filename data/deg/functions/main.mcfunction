@@ -24,6 +24,7 @@ execute as @a[predicate=deg:holdingloaderwithdata] run title @s actionbar [{"tex
 
 #Saver
 
+execute as @a unless score @s deg_save_state = @s deg_save_state run scoreboard players set @s deg_save_state 0
 execute as @a[predicate=deg:holdinggroupsaver,scores={deg_save_state=0}] run scoreboard players set @s deg_save_state 1
 execute as @a[scores={deg_rc=1..},predicate=deg:holdinggroupsaver] run function deg:save/item/useditem
 execute as @a[scores={deg_save_state=1..3},predicate=deg:groupsaverinoffhand] at @s run function deg:save/item/useditemalt
