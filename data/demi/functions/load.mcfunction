@@ -54,3 +54,5 @@ scoreboard objectives add demi_set_scale_z trigger
 scoreboard objectives add demi_set_translation_x trigger
 scoreboard objectives add demi_set_translation_y trigger
 scoreboard objectives add demi_set_translation_z trigger
+
+scoreboard objectives add interpolation_delay dummy
