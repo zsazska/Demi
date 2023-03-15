@@ -47,7 +47,7 @@ The commands' names are structured like this:
   
 -The values get processed exactly the same as in the **/demi_set_\<transformation name>_\<axis>** commands
   
--There is also an **interpolation_duration** scoreboard, that specifies the interpolation's duration in ticks
+-There is also an **interpolation_duration** scoreboard, that specifies the interpolation's duration and an **interpolation_delay** scoreboard that delays the start of the interpolation (both are in ticks)
   
 Here's an example of how to use these scoreboards and commands:
   
@@ -60,6 +60,7 @@ scoreboard players set @s translation_x 200
 scoreboard players set @s scale_y 50
 scoreboard players set @s left_rotation_z 45
 scoreboard players set @s interpolation_duration 100
+scoreboard players set @s interpolation_delay 15
 function demi:transformations/interpolation
 ```
   
