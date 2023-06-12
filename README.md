@@ -28,7 +28,11 @@ Right click on a block or put the item in your offhand ("f" by default) to set t
 
 ## Group loader
 
-Shift-right click while holding a renamed item in your offhand to load a group (the loaded group's id is the name of the item in your offhand). Then right click on a block to load the group. Groups can be selected with the **"demi_group"** tag and grouped entities can be selected with **"demi_grouped"**. Groups can be moved around, rotated and resized. To move a group, simply teleport the **demi_group** entity to the desired location. To rotate a group, modify the **demi_group** entity's Rotation data (with /tp or /data modify or merge). Then, run the **/function demi:updaterotation** command *AS* the **demi_group** entity to update its rotation visually. To resize the group, set the **resize_\<axis>** scores of the **demi_group** entity. These values are the percentage of the group's size, so setting resize_x to 200 will double the group's size on the x axis for example.
+Shift-right click while holding a renamed item in your offhand to load a group (the loaded group's id is the name of the item in your offhand). Then right click on a block to load the group (You can also put the item in your offhand to load it at your position). Groups can be selected with the **"demi_group"** tag and grouped entities can be selected with **"demi_grouped"**. Groups can be moved around, rotated and resized. To move a group, simply teleport the **demi_group** entity to the desired location. To rotate a group, modify the **demi_group** entity's Rotation data (with /tp or /data modify or merge). Then, run the **/function demi:updaterotation** command *AS* the **demi_group** entity to update its rotation visually. To resize the group, set the **resize_\<axis>** scores of the **demi_group** entity. These values are the percentage of the group's size, so setting resize_x to 200 will double the group's size on the x axis for example.
+
+## Block Display Converter
+
+Right click on a block (or put the item in your offhand) to set the corners of the selection, then right click again to convert the blocks inside the selection into block display entities. You can also choose to keep the original blocks or not, this is toggled by sneaking twice with the item in your hand.
 
 ## Other Commands
 
