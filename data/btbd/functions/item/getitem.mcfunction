@@ -1,0 +1,1 @@
+give @s warped_fungus_on_a_stick{Unbreakable:1b,HideFlags:127,display:{Name:'[{"text":"Block display converter","italic": false,"color": "yellow"},{"text":" (Keep blocks: ","color": "aqua"},{"text":"ON","color": "dark_green","bold": true},{"text":")","color": "aqua"}]'},BdConverter:1b,KeepBlocks:1b}

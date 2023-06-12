@@ -16,11 +16,12 @@ kill @e[type=#deg:display_entities,tag=demi_grouped,predicate=!deg:riding]
 
 execute as @a[scores={deg_rc=1..},predicate=deg:holdingloader,predicate=deg:sneaking] run function deg:load/item/checkforoffhanditem
 execute as @a[scores={deg_rc=1..},predicate=deg:holdingloaderwithdata,predicate=!deg:sneaking] run function deg:load/item/placegroup
+execute as @a[predicate=deg:holdingloaderwithdatainoffhand] at @s run function deg:load/item/useditemalt
 
 #Saver Instructions
 
 execute as @a[predicate=deg:holdingloader] run title @s actionbar [{"text":"Sneak + right click to load a group","color":"aqua"}]
-execute as @a[predicate=deg:holdingloaderwithdata] run title @s actionbar [{"text":"Right click to place the group","color":"aqua"}]
+execute as @a[predicate=deg:holdingloaderwithdata] run title @s actionbar [{"text":"Right click to place the group. Press ","color":"aqua"},{"keybind":"key.swapOffhand","color":"yellow"},{"text":" to place it at your position"}]
 
 #Saver
 

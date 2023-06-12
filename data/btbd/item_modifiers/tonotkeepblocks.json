@@ -1,0 +1,31 @@
+[
+    {
+      "function": "minecraft:set_nbt",
+      "tag": "{KeepBlocks:0b}"
+    },
+    {
+      "function": "minecraft:set_name",
+      "entity": "this",
+      "name": [
+        {
+          "text": "Block display converter",
+          "color": "yellow",
+          "italic": false
+        },
+        {
+          "text": " (Keep blocks: ",
+          "color": "aqua"
+        },
+        {
+          "text": "OFF",
+          "color": "dark_red",
+          "bold": true
+        },
+        {
+          "text": ")",
+          "color": "aqua"
+        }
+      ]
+    }
+  ]
+  
