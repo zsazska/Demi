@@ -3,7 +3,8 @@
     "values":[
         "derot:load",
         "demi:load",
-	    "deg:load"
+	"deg:load",
+	"btbd:load"
         ]
 
 }
