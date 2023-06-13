@@ -1,8 +1,8 @@
 execute as @a[scores={bdcused=1..},predicate=btbd:holdingconverter] at @s run function btbd:item/itemused
 
 scoreboard players set @a bdcused 0
-execute as @a[predicate=btbd:converterinoffhand,predicate=btbd:keepblocks] at @s run function btbd:item/offhandusekeep
-execute as @a[predicate=btbd:converterinoffhand,predicate=btbd:dontkeepblocks] at @s run function btbd:item/offhandusenokeep
+execute as @a[predicate=btbd:keepblocksoffhand] at @s run function btbd:item/offhandusekeep
+execute as @a[predicate=btbd:dontkeepblocksoffhand] at @s run function btbd:item/offhandusenokeep
 execute as @a[predicate=!btbd:holdingconverter] run function btbd:item/reset
 execute as @a[scores={bdcmode=0},predicate=btbd:holdingconverter] run scoreboard players set @s bdcmode 1
 
