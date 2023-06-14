@@ -9,4 +9,17 @@
       }
     }
   }
+
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "equipment": {
+        "offhand": {
+          "nbt": "{KeepBlocks:1b}"
+        }
+      }
+    }
+  }
+
   

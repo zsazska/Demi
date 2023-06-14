@@ -47,6 +47,7 @@ execute as @e[type=item,nbt={Item:{tag:{GroupSaver:1b}}}] run data modify entity
 scoreboard players set @a deg_rc 0
 #
 
+
 execute as @e[tag=demi_group] unless score @s resize_x matches 0 run function deg:resize/resizex
 execute as @e[tag=demi_group] unless score @s resize_y matches 0 run function deg:resize/resizey
 execute as @e[tag=demi_group] unless score @s resize_z matches 0 run function deg:resize/resizez
