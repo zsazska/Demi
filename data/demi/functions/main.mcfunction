@@ -1,4 +1,5 @@
 execute as @e[type=#demi:display_entities,tag=!gotdefaultscores] run function demi:getdefaultscores
+execute as @e[tag=demi_group,tag=!gotdefaultscores] run function demi:getdefaultscores
 
 execute as @a[scores={demi_rc=1..},predicate=demi:holdingmodifier] run function demi:modifier/usedmodifier
 execute as @a[scores={demi_rc=1..},predicate=demi:holdingplacer,predicate=demi:hasiteminoffhand] run function demi:placer/usedplacer

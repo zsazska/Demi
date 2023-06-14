@@ -8,7 +8,7 @@ execute store result entity @s transformation.scale[2] float 0.01 run scoreboard
 
 execute store result entity @s transformation.translation[0] float 0.01 run scoreboard players get @s translation_x
 execute store result entity @s transformation.translation[1] float 0.01 run scoreboard players get @s translation_y
-execute store result entity @s transformation.translatione[2] float 0.01 run scoreboard players get @s translation_z
+execute store result entity @s transformation.translation[2] float 0.01 run scoreboard players get @s translation_z
 
 execute store result entity @s start_interpolation int 1 run scoreboard players get @s interpolation_delay
 execute store result entity @s interpolation_duration int 1 run scoreboard players get @s interpolation_duration

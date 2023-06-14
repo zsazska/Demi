@@ -9,3 +9,4 @@ scoreboard players operation @s translation_z *= $temp resize_z
 scoreboard players operation @s translation_z /= $100 resize_x
 
 execute store result entity @s transformation.translation[2] float 0.01 run scoreboard players get @s translation_z
+
